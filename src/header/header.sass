@@ -1,0 +1,56 @@
+.header
+  display: flex
+  margin: 0 auto 0 auto
+  justify-content: space-between
+  max-width: 1000px
+  height: 68px
+  background-color: #1976d2
+  box-shadow: rgb(0 0 0 / 20%) 0 2px 4px -1px, rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0 1px 10px 0px
+  &__first
+    padding-left: 75px
+    display: flex
+    align-items: center
+    &__name
+      display: flex
+      margin-right: 20px
+      .logo
+        color: white
+      .name
+        font-family: monospace
+        letter-spacing: 0.3rem
+        color: white
+        font-weight: 700
+        font-size: 20px
+        text-decoration: none
+    &__tabs
+      .tabs-buttons
+        cursor: pointer
+        font-size: 15px
+        font-family: "Roboto","Helvetica","Arial",sans-serif
+        border: none
+        border-radius: 5px
+        background: none
+        padding: 10px
+        color: white
+        text-decoration: none
+        transition: 0.5s all
+        &:hover
+          background-color: rgba(144, 202, 249, 0.3)
+
+  &__second
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-right: 75px
+    &__avatar
+      position: relative
+      width: 40px
+      height: 40px
+      background-color: #bdbdbd
+      border-radius: 50%
+      span
+        position: absolute
+        font-weight: 700
+        color: white
+        top: 25%
+        left: 35%
